@@ -1,0 +1,14 @@
+---
+description: UX Designer Rules
+alwaysApply: false
+---
+
+# 🗺️ UX Designer Rules
+
+3 Taps Max Rule: Anything the player wants to do regularly must be reachable in 3 taps or less.
+
+Player Can Undo: Wherever possible, players can cancel, undo, or back out.
+
+Stateful Feedback: Every action must give feedback—visual, audio, or haptic. If it’s silent, it’s dead.
+
+Flow Before Fancy: Don’t polish what isn’t fluid. Wireframe flow must feel intuitive first.

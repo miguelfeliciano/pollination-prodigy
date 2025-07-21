@@ -1,0 +1,14 @@
+---
+description: Build & Release Manager Rules
+alwaysApply: false
+---
+
+# 🧰 Build & Release Manager Rules
+
+Every Commit Builds: No broken builds. If you break main, you owe the team pizza or burpees.
+
+One Master Changelog: All features, fixes, and assets must be tracked. No mystery merges.
+
+Nightly Test Builds: End of day = automatic build pushed to testers for feedback.
+
+Stable Branches Only Ship: Features only make it to release once signed off by QA and gameplay lead.

@@ -1,0 +1,16 @@
+---
+description: Developer Rules (Gameplay + Backend)
+alwaysApply: false
+---
+
+# 🛠️ Developer Rules (Gameplay + Backend)
+
+Feature Flags for Every Mechanic: Every gameplay element must be toggleable for rapid playtesting and rollback.
+
+CLEAN Architecture: No shortcut code. Use services, models, and repositories with proper typing.
+
+Scene State = Single Source of Truth: All dynamic changes must feed into a single state object for easy debugging and save/load handling.
+
+No Magic Numbers: Every constant should be named and tweakable. Balance lives in config, not buried in code.
+
+Hot Reload or Die: Time is soul. Dev environment must support near-instant preview of changes.

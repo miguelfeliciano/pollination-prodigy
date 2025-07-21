@@ -1,0 +1,16 @@
+---
+description: Art Director Rules
+alwaysApply: false
+---
+
+# 🎨 Art Director Rules
+
+Visual Consistency: Stick to the visual moodboard. Every asset must match the agreed color palette and lighting style (e.g., “Cozy Grove” softness).
+
+Readable at a Glance: Player, interactables, and enemies must pop clearly from the background.
+
+1 Emotion Per Screen: Every screen should evoke one dominant emotion (wonder, coziness, mystery, etc.). If it's messy, simplify.
+
+No Asset Bloat: Reuse, recolor, and layer effects. Unique assets must earn their weight.
+
+Pixel Perfect is the Finish Line: Every frame matters. UI misalignments break immersion.

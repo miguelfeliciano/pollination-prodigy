@@ -1,0 +1,14 @@
+---
+description: QA Tester Rules
+alwaysApply: false
+---
+
+# 🧪 QA Tester Rules
+
+Break It Like a Player Would: No mercy. Click wrong buttons, play backwards, idle on screens.
+
+Edge Cases > Happy Path: Every screen and mechanic must be tested with corrupted saves, bad internet, or rogue input.
+
+Every Bug Needs a Repro Step: No vague bug reports. If you can’t reproduce it, it’s not real (yet).
+
+No “It’ll Be Fine”: If something feels off—flag it. Gut check bugs are valid.
