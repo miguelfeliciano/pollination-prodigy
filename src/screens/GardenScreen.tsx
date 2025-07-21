@@ -1,6 +1,6 @@
 import React from "react";
-import TileTest from "@/components/TileTest";
+import GardenGridTest from "@/components/GardenGridTest";
 
 export default function GardenScreen() {
-  return <TileTest />;
+  return <GardenGridTest />;
 }
