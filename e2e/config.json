@@ -1,0 +1,10 @@
+{
+  "setupFilesAfterEnv": ["./init.js"],
+  "testEnvironment": "node",
+  "testRunner": "jest-circus/runner",
+  "testTimeout": 120000,
+  "maxWorkers": 1,
+  "globals": {
+    "__TEST__": true
+  }
+}
