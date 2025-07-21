@@ -7,6 +7,7 @@ interface TileProps {
   isPlanted?: boolean;
   onPress?: () => void;
   size?: "small" | "large";
+  testID?: string;
 }
 
 export default function Tile({
@@ -14,6 +15,7 @@ export default function Tile({
   isPlanted = false,
   onPress,
   size = "small",
+  testID,
 }: TileProps) {
   const tileSize = size === "small" ? SIZES.tile.small : SIZES.tile.large;
 
@@ -31,6 +33,7 @@ export default function Tile({
       ]}
       onPress={onPress}
       activeOpacity={0.7}
+      testID={testID || `tile-${position.x}-${position.y}`}
     >
       {isPlanted && (
         <View style={styles.plant}>

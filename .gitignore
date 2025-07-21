@@ -36,4 +36,25 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# Testing
+coverage/
+*.lcov
+*.coverage
+__snapshots__/
+*.snap
+.jest/
+jest-cache/
+
+# E2E Testing
+artifacts/
+*.log
+*.apk
+*.app
+*.ipa
+android/app/build/
+ios/build/
+
+# Detox
+.detox/
+
 .docs

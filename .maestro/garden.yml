@@ -1,0 +1,9 @@
+appId: dev.expo.pollinationprodigy # Replace with your actual app ID
+---
+- launchApp
+- tapOn: "🌿 Garden"
+- assertVisible: "Tile Component Test"
+- assertVisible: "Empty Tiles"
+- assertVisible: "Planted Tiles"
+- assertVisible: "Large Tiles"
+- assertVisible: "Interactive Tiles"

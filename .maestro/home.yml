@@ -1,0 +1,6 @@
+appId: dev.expo.pollinationprodigy # Replace with your actual app ID
+---
+- launchApp
+- assertVisible: "🌻 Pollination Prodigy"
+- assertVisible: "🌿 Garden"
+- assertVisible: "⚙️ Settings"
