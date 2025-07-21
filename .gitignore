@@ -57,4 +57,4 @@ ios/build/
 # Detox
 .detox/
 
-.docs
+# .docs - Removed to allow tracking of project documentation
